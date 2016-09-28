@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LoginTable>
+  <User>
+    <UserID>AJ9902</UserID>
+    <UserName>Amy</UserName>
+    <Password>Passw0rd</Password>
+    <Account>452352</Account>
+  </User>
+  <User>
+    <UserID>AN2345</UserID>
+    <UserName>Anna</UserName>
+    <Password>Passw0rd</Password>
+    <Account>9832167</Account>
+  </User>
+  <User>
+    <UserID>SI5042</UserID>
+    <UserName>Simon</UserName>
+    <Password>Passw0rd</Password>
+    <Account>670410</Account>
+  </User>
+  <User>
+    <UserID>TR6789</UserID>
+    <UserName>Tracy</UserName>
+    <Password>Passw0rd</Password>
+    <Account>139908</Account>
+  </User>
+    <User>
+    <UserID>VA123</UserID>
+    <UserName>vasil</UserName>
+    <Password>123123</Password>
+    <Account>123124</Account>
+  </User>
+</LoginTable>

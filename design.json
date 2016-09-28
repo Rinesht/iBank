@@ -1,0 +1,834 @@
+{
+  "@self" : "/csa/api/topology-model/topology/8ac318e1-d8a9-4fcf-86a2-e5063027a3d2",
+  "@type" : "urn:x-hp:2013:software:cloud:topology_model:topology",
+  "groupId" : "com.hp.csa",
+
+  "artifactId" : "69f8fcd2-56c2-4a29-b0d6-e761e3647282",
+  "version" : "4.1.0",
+  "displayName" : "DevOps_iBank_MT",
+  "description" : "",
+  "resources" : [ {
+    "id" : "vCenterServer-DevOps_d9358e8d343d4e129a635b029635ce47__VERSION__04.20.0000__GROUPID__com.hp.csa.type0002",
+
+    "name" : "Windows",
+    "component" : {
+      "@self" : "/csa/api/topology-model/component-type/91b4e4d1-cd41-4efe-9f4b-2bdce8844708",
+      "groupId" : "com.hp.csa.type",
+      "artifactId" : "vCenterServer-DevOps_d9358e8d343d4e129a635b029635ce47",
+
+      "version" : "04.20.0000"
+    },
+    "properties" : [ {
+      "propertyKey" : "vmTemplateReference",
+      "propertyValue" : {
+        "value" : "tmpl-w2k8r2_x64",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "requestedMemorySize",
+
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "result",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "cpuCount",
+      "propertyValue" : {
+        "value" : "2",
+        "type" : "number"
+
+      }
+    }, {
+      "propertyKey" : "ipAddressList",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "ip_sequence",
+      "propertyValue" : {
+        "value" : "2",
+
+        "type" : "string"
+
+      }
+
+    }, {
+      "propertyKey" : "privateKey",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "memorySize",
+      "propertyValue" : {
+        "value" : "4096",
+        "type" : "number"
+      }
+    }, {
+      "propertyKey" : "requestedCpuCount",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "customizationSpec",
+      "propertyValue" : {
+        "value" : "windows-nodomain",
+        "type" : "string"
+
+      }
+    }, {
+      "propertyKey" : "hostname",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_enable_modify_during_lifecycle_properties",
+
+      "propertyValue" : {
+        "value" : "ip_sequence",
+
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "macAddress",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+
+      }
+
+    }, {
+      "propertyKey" : "osType",
+      "propertyValue" : {
+        "value" : "windows",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "password",
+
+      "propertyValue" : {
+        "value" : "ENC(a1+njohCHGLweybK44dCQhsvmopghm5Z)",
+        "type" : "string_encrypted"
+      }
+
+    }, {
+      "propertyKey" : "response",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "username",
+      "propertyValue" : {
+        "value" : "Administrator",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_modifiable_properties",
+
+      "propertyValue" : {
+        "value" : "ip_sequence",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmID",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmState",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmNamePrefix",
+      "propertyValue" : {
+
+        "value" : "R4WIN",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmFolder",
+      "propertyValue" : {
+        "value" : "/devops",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "ipAddress",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    } ],
+    "outgoingRelations" : [ ],
+    "annotations" : {
+      "description" : "",
+      "displayName" : "Windows",
+      "y" : "-200",
+      "x" : "-800"
+    },
+    "capabilityChars" : [ ],
+    "requirements" : [ ]
+  }, {
+    "id" : "vCenterServer-DevOps_d9358e8d343d4e129a635b029635ce47__VERSION__04.20.0000__GROUPID__com.hp.csa.type0001",
+    "name" : "Linux",
+    "component" : {
+      "@self" : "/csa/api/topology-model/component-type/91b4e4d1-cd41-4efe-9f4b-2bdce8844708",
+      "groupId" : "com.hp.csa.type",
+      "artifactId" : "vCenterServer-DevOps_d9358e8d343d4e129a635b029635ce47",
+      "version" : "04.20.0000"
+    },
+    "properties" : [ {
+      "propertyKey" : "vmTemplateReference",
+      "propertyValue" : {
+        "value" : "tmpl-ubnt1404_x64",
+
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "requestedMemorySize",
+      "propertyValue" : {
+
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "result",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "cpuCount",
+      "propertyValue" : {
+
+        "value" : "2",
+        "type" : "number"
+      }
+    }, {
+      "propertyKey" : "ipAddressList",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+
+      }
+    }, {
+      "propertyKey" : "ip_sequence",
+      "propertyValue" : {
+        "value" : "1",
+        "type" : "string"
+      }
+
+    }, {
+      "propertyKey" : "privateKey",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "memorySize",
+      "propertyValue" : {
+        "value" : "1024",
+        "type" : "number"
+
+      }
+    }, {
+      "propertyKey" : "requestedCpuCount",
+      "propertyValue" : {
+
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "customizationSpec",
+      "propertyValue" : {
+        "value" : "linux",
+        "type" : "string"
+
+      }
+    }, {
+      "propertyKey" : "hostname",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+
+    }, {
+      "propertyKey" : "_enable_modify_during_lifecycle_properties",
+      "propertyValue" : {
+        "value" : "ip_sequence",
+        "type" : "string"
+
+      }
+    }, {
+      "propertyKey" : "macAddress",
+      "propertyValue" : {
+        "value" : null,
+
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "osType",
+      "propertyValue" : {
+        "value" : "linux",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "password",
+      "propertyValue" : {
+        "value" : "ENC(hvtb+OCLwN71tKgng0wjJd9oIDNgVsPS)",
+        "type" : "string_encrypted"
+      }
+    }, {
+      "propertyKey" : "response",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "username",
+      "propertyValue" : {
+        "value" : "root",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_modifiable_properties",
+      "propertyValue" : {
+        "value" : "ip_sequence",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmID",
+      "propertyValue" : {
+        "value" : null,
+
+        "type" : "string"
+      }
+
+    }, {
+      "propertyKey" : "vmState",
+      "propertyValue" : {
+        "value" : null,
+
+        "type" : "string"
+      }
+
+    }, {
+      "propertyKey" : "vmNamePrefix",
+      "propertyValue" : {
+
+        "value" : "R4LIN",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmFolder",
+
+      "propertyValue" : {
+        "value" : "/devops",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "ipAddress",
+
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    } ],
+    "outgoingRelations" : [ ],
+    "annotations" : {
+      "description" : "",
+      "displayName" : "Linux",
+      "y" : "-200",
+      "x" : "-1000"
+    },
+    "capabilityChars" : [ ],
+    "requirements" : [ ]
+
+  }, {
+    "id" : "SiteScopeMonitor-DevOps_4c302eefb6494ce0b7d691338612de3d__VERSION__04.20.0000__GROUPID__com.hp.csa.type0002",
+    "name" : "SiteScope Windows Monitor",
+    "component" : {
+      "@self" : "/csa/api/topology-model/component-type/1942bbc6-a8ea-4965-9ff7-9968dc003569",
+      "groupId" : "com.hp.csa.type",
+      "artifactId" : "SiteScopeMonitor-DevOps_4c302eefb6494ce0b7d691338612de3d",
+      "version" : "04.20.0000"
+    },
+
+    "properties" : [ {
+      "propertyKey" : "response",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "result",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+
+    }, {
+      "propertyKey" : "_modifiable_properties",
+
+      "propertyValue" : {
+        "value" : "",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "serverHostname",
+      "propertyValue" : {
+
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "monitorPath",
+      "propertyValue" : {
+        "value" : "HP_DevOps\\OS_Monitors",
+
+        "type" : "string"
+
+      }
+    }, {
+      "propertyKey" : "deployedMonitorPath",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+
+      "propertyKey" : "_enable_modify_during_lifecycle_properties",
+
+      "propertyValue" : {
+        "value" : "",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "templatePath",
+
+      "propertyValue" : {
+        "value" : "DevOps_CF_Monitor_Templates\\Windows_Monitor_Templates\\DevOps_WIN_BASIC_OS_Monitor",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "serverIPAddress",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    } ],
+    "outgoingRelations" : [ {
+
+      "relationType" : "association",
+      "id" : "rel0008",
+      "properties" : [ {
+        "propertyKey" : "_modifiable_properties",
+        "propertyValue" : {
+
+          "value" : "",
+          "type" : "string"
+        }
+      }, {
+
+        "propertyKey" : "_relation_type",
+        "propertyValue" : {
+          "value" : {
+            "first" : "Association",
+            "second" : "ASSOCIATION"
+          },
+          "type" : "pair"
+        }
+      }, {
+        "propertyKey" : "_enable_modify_during_lifecycle_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+        }
+      } ],
+      "relationDescriptorName" : "SiteScopeMonitorTypeToVcenterServerType_SiteScopeMonitor-DevOps_4c302eefb6494ce0b7d691338612de3d__VERSION__04^20^0000__GROUPID__com^hp^csa^type",
+      "resourceReference" : {
+        "name" : "Windows"
+      }
+    } ],
+
+    "annotations" : {
+      "description" : "",
+      "displayName" : "SiteScope Windows Monitor",
+      "y" : "-400",
+      "x" : "-800"
+    },
+    "capabilityChars" : [ ],
+    "requirements" : [ ]
+  }, {
+    "id" : "Deploy-iBank-java-codar4.1.0_015254fabd6148f7864f4e0042425450__VERSION__1__GROUPID__com.hp.csa.type.CHEF0001",
+    "name" : "Deploy-iBank-java-codar (4.1.0) 1",
+    "component" : {
+      "@self" : "/csa/api/topology-model/component-type/e504779b-816d-4d96-b313-ab1f340dfa45",
+      "groupId" : "com.hp.csa.type.CHEF",
+      "artifactId" : "Deploy-iBank-java-codar4.1.0_015254fabd6148f7864f4e0042425450",
+      "version" : "1"
+    },
+    "properties" : [ {
+      "propertyKey" : "response",
+      "propertyValue" : {
+
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+
+      "propertyKey" : "nodeIpAddress",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+
+      }
+    }, {
+
+      "propertyKey" : "_modifiable_properties",
+      "propertyValue" : {
+        "value" : "iBank_artifact_http_url",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "nodeName",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+
+    }, {
+      "propertyKey" : "_enable_modify_during_lifecycle_properties",
+      "propertyValue" : {
+        "value" : "iBank_artifact_http_url",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "iBank_artifact_http_url",
+      "propertyValue" : {
+        "value" : "http://10.10.3.58:8080/nexus/service/local/repositories/DevOps-QA/content/hp/iBank/RC-25/RC-java-25.war",
+        "type" : "string"
+      }
+    } ],
+    "outgoingRelations" : [ {
+      "relationType" : "association",
+      "id" : "rel0006",
+      "properties" : [ {
+
+        "propertyKey" : "_modifiable_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+        }
+      }, {
+        "propertyKey" : "_relation_type",
+        "propertyValue" : {
+          "value" : {
+            "first" : "Association",
+            "second" : "ASSOCIATION"
+          },
+          "type" : "pair"
+        }
+      }, {
+        "propertyKey" : "_enable_modify_during_lifecycle_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+        }
+      } ],
+      "relationDescriptorName" : "{urn:x-hp:2013:software:ccue:designer:topology-metamodel:chef}hostedOn_Deploy-iBank-java-codar4^1^0_015254fabd6148f7864f4e0042425450__VERSION__1__GROUPID__com^hp^csa^type^CHEF",
+      "resourceReference" : {
+        "name" : "Linux"
+      }
+    } ],
+    "annotations" : {
+      "description" : "",
+      "displayName" : "Deploy-iBank-java-codar (4.1.0) 1",
+      "y" : "0",
+      "x" : "-1000"
+    },
+    "capabilityChars" : [ ],
+
+    "requirements" : [ ]
+  }, {
+    "id" : "SiteScopeMonitor-DevOps_4c302eefb6494ce0b7d691338612de3d__VERSION__04.20.0000__GROUPID__com.hp.csa.type0001",
+    "name" : "SiteScope Linux Monitor",
+    "component" : {
+      "@self" : "/csa/api/topology-model/component-type/1942bbc6-a8ea-4965-9ff7-9968dc003569",
+      "groupId" : "com.hp.csa.type",
+      "artifactId" : "SiteScopeMonitor-DevOps_4c302eefb6494ce0b7d691338612de3d",
+      "version" : "04.20.0000"
+    },
+    "properties" : [ {
+      "propertyKey" : "response",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+
+    }, {
+      "propertyKey" : "result",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_modifiable_properties",
+
+      "propertyValue" : {
+        "value" : "",
+        "type" : "string"
+      }
+    }, {
+
+      "propertyKey" : "serverHostname",
+
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "monitorPath",
+      "propertyValue" : {
+        "value" : "HP_DevOps\\OS_Monitors",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "deployedMonitorPath",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_enable_modify_during_lifecycle_properties",
+      "propertyValue" : {
+        "value" : "",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "templatePath",
+      "propertyValue" : {
+        "value" : "DevOps_CF_Monitor_Templates\\Linux_Monitor_Templates\\DevOps_UNIX_BASIC_OS_Monitor2",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "serverIPAddress",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    } ],
+    "outgoingRelations" : [ {
+      "relationType" : "association",
+      "id" : "rel0007",
+      "properties" : [ {
+        "propertyKey" : "_modifiable_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+        }
+      }, {
+        "propertyKey" : "_relation_type",
+
+        "propertyValue" : {
+          "value" : {
+            "first" : "Association",
+            "second" : "ASSOCIATION"
+          },
+          "type" : "pair"
+        }
+      }, {
+        "propertyKey" : "_enable_modify_during_lifecycle_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+
+        }
+
+      } ],
+      "relationDescriptorName" : "SiteScopeMonitorTypeToVcenterServerType_SiteScopeMonitor-DevOps_4c302eefb6494ce0b7d691338612de3d__VERSION__04^20^0000__GROUPID__com^hp^csa^type",
+      "resourceReference" : {
+        "name" : "Linux"
+      }
+    } ],
+    "annotations" : {
+      "description" : "",
+      "displayName" : "SiteScope Linux Monitor",
+      "y" : "-400",
+      "x" : "-1000"
+    },
+    "capabilityChars" : [ ],
+    "requirements" : [ ]
+  }, {
+    "id" : "Deploy-iBank-codar4.1.0_b6de3ff7c1fe49bcbcb9126bc446ee19__VERSION__1__GROUPID__com.hp.csa.type.CHEF0002",
+    "name" : "Deploy-iBank-codar (4.1.0)",
+    "component" : {
+      "@self" : "/csa/api/topology-model/component-type/9da34a0a-a263-4d60-978c-292aceb2d5c2",
+
+      "groupId" : "com.hp.csa.type.CHEF",
+
+      "artifactId" : "Deploy-iBank-codar4.1.0_b6de3ff7c1fe49bcbcb9126bc446ee19",
+      "version" : "1"
+    },
+    "properties" : [ {
+      "propertyKey" : "response",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "nodeIpAddress",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+
+      "propertyKey" : "_modifiable_properties",
+      "propertyValue" : {
+        "value" : "artifact_http_url, iBank-java_host",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "artifact_http_url",
+      "propertyValue" : {
+        "value" : "http://10.10.3.58:8080/nexus/service/local/repositories/DevOps-QA/content/hp/iBank/RC-25/RC-dotnet-25.zip",
+        "type" : "string"
+      }
+    }, {
+
+      "propertyKey" : "nodeName",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_enable_modify_during_lifecycle_properties",
+      "propertyValue" : {
+        "value" : "artifact_http_url, iBank-java_host",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "iBank-java_host",
+      "propertyValue" : {
+
+        "value" : null,
+        "type" : "string"
+      }
+    } ],
+
+    "outgoingRelations" : [ {
+      "relationType" : "association",
+      "id" : "rel0001",
+      "properties" : [ {
+        "propertyKey" : "_modifiable_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+        }
+      }, {
+        "propertyKey" : "_relation_type",
+
+        "propertyValue" : {
+          "value" : {
+            "first" : "Association",
+            "second" : "ASSOCIATION"
+          },
+          "type" : "pair"
+        }
+
+      }, {
+        "propertyKey" : "_enable_modify_during_lifecycle_properties",
+        "propertyValue" : {
+
+          "value" : "",
+          "type" : "string"
+        }
+      } ],
+      "relationDescriptorName" : "{urn:x-hp:2013:software:ccue:designer:topology-metamodel:chef}hostedOn_Deploy-iBank-codar4^1^0_b6de3ff7c1fe49bcbcb9126bc446ee19__VERSION__1__GROUPID__com^hp^csa^type^CHEF",
+
+      "resourceReference" : {
+        "name" : "Windows"
+      }
+    }, {
+      "relationType" : "association",
+      "id" : "rel0002",
+      "properties" : [ {
+        "propertyKey" : "_modifiable_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+        }
+      }, {
+        "propertyKey" : "_relation_type",
+        "propertyValue" : {
+          "value" : {
+            "first" : "Association",
+            "second" : "ASSOCIATION"
+          },
+          "type" : "pair"
+
+        }
+      }, {
+        "propertyKey" : "_enable_modify_during_lifecycle_properties",
+        "propertyValue" : {
+
+          "value" : "",
+
+          "type" : "string"
+        }
+      } ],
+      "relationDescriptorName" : "relatedTo_Deploy-iBank-codar4^1^0_b6de3ff7c1fe49bcbcb9126bc446ee19__VERSION__1__GROUPID__com^hp^csa^type^CHEF",
+
+      "resourceReference" : {
+        "name" : "Linux"
+      }
+    } ],
+    "annotations" : {
+      "description" : "",
+      "displayName" : "Deploy-iBank-codar (4.1.0)",
+      "y" : "0",
+      "x" : "-800"
+    },
+    "capabilityChars" : [ ],
+    "requirements" : [ ]
+  } ],
+  "revision" : 10,
+  "properties" : [ {
+    "propertyKey" : "metamodelId",
+    "propertyValue" : {
+      "value" : "test",
+      "type" : "string"
+    }
+  }, {
+    "propertyKey" : "is_express",
+    "propertyValue" : {
+      "value" : "false",
+      "type" : "boolean"
+    }
+  } ],
+  "iconUrl" : "/csa/images/library/infrastructure_service.png",
+  "tagIds" : [ {
+    "@self" : "/csa/api/tag/8a818cf8ara15bc772b0145cb6efjhg99"
+  } ],
+  "state" : "UNLOCKED",
+  "hidden" : false,
+  "partial" : false,
+  "profiles" : [ ],
+  "annotations" : {
+    "providerType" : "independent",
+    "serviceBlueprintId" : "8a8a82424a53787e014ae929091171d8"
+  }
+}

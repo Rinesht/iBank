@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserAccount>
+  <Account UserID="AJ9902">
+    <Balance>18487.60</Balance>
+  </Account>
+  <Account UserID="SI5042">
+    <Balance>6700</Balance>
+  </Account>
+  <Account UserID="vasil">
+    <Balance>100000</Balance>
+  </Account>
+</UserAccount>

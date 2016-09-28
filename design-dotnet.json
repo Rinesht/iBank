@@ -1,0 +1,309 @@
+{
+  "@self" : "/csa/api/topology-model/topology/1a946f42-8015-49aa-bf40-7dd7c85226b8",
+  "@type" : "urn:x-hp:2013:software:cloud:topology_model:topology",
+  "groupId" : "com.hp.csa",
+
+  "artifactId" : "6800f283-6fa6-4be2-8bdf-33770aae60f6",
+  "version" : "4.1.0",
+  "displayName" : "DevOps_iBank_Dotnet",
+  "description" : "",
+  "resources" : [ {
+    "id" : "vCenterServer-DevOps_d9358e8d343d4e129a635b029635ce47__VERSION__04.20.0000__GROUPID__com.hp.csa.type0001",
+
+    "name" : "Windows",
+    "component" : {
+      "@self" : "/csa/api/topology-model/component-type/91b4e4d1-cd41-4efe-9f4b-2bdce8844708",
+      "groupId" : "com.hp.csa.type",
+      "artifactId" : "vCenterServer-DevOps_d9358e8d343d4e129a635b029635ce47",
+
+      "version" : "04.20.0000"
+    },
+    "properties" : [ {
+      "propertyKey" : "vmTemplateReference",
+      "propertyValue" : {
+        "value" : "tmpl-w2k8r2_x64",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "requestedMemorySize",
+
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "result",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "cpuCount",
+      "propertyValue" : {
+        "value" : "2",
+        "type" : "number"
+
+      }
+    }, {
+      "propertyKey" : "ipAddressList",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "ip_sequence",
+      "propertyValue" : {
+        "value" : "2",
+
+        "type" : "string"
+
+      }
+
+    }, {
+      "propertyKey" : "privateKey",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "memorySize",
+      "propertyValue" : {
+        "value" : "4096",
+        "type" : "number"
+      }
+    }, {
+      "propertyKey" : "requestedCpuCount",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "customizationSpec",
+      "propertyValue" : {
+        "value" : "windows-nodomain",
+        "type" : "string"
+
+      }
+    }, {
+      "propertyKey" : "hostname",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_enable_modify_during_lifecycle_properties",
+
+      "propertyValue" : {
+        "value" : "ip_sequence",
+
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "macAddress",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+
+      }
+
+    }, {
+      "propertyKey" : "osType",
+      "propertyValue" : {
+        "value" : "windows",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "password",
+
+      "propertyValue" : {
+        "value" : "ENC(/vAUXGF1UzBLlz3hHHxuNqaH1TsLHI5Z)",
+        "type" : "string_encrypted"
+      }
+
+    }, {
+      "propertyKey" : "response",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "username",
+      "propertyValue" : {
+        "value" : "Administrator",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_modifiable_properties",
+
+      "propertyValue" : {
+        "value" : "ip_sequence",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmID",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmState",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmNamePrefix",
+      "propertyValue" : {
+
+        "value" : "R4WIN",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "vmFolder",
+      "propertyValue" : {
+        "value" : "/devops",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "ipAddress",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    } ],
+    "outgoingRelations" : [ ],
+    "annotations" : {
+      "description" : "",
+      "displayName" : "Windows",
+      "y" : "-200",
+      "x" : "-200"
+    },
+    "capabilityChars" : [ ],
+    "requirements" : [ ]
+  }, {
+    "id" : "Deploy-iBank-codar-static4.1.0_e3caefb9b29d469490bf24ba22e2650d__VERSION__1__GROUPID__com.hp.csa.type.CHEF0001",
+    "name" : "Deploy-iBank-codar-static (4.1.0) 1",
+    "component" : {
+      "@self" : "/csa/api/topology-model/component-type/9b451495-803b-485a-95c4-1daa6965a421",
+      "groupId" : "com.hp.csa.type.CHEF",
+      "artifactId" : "Deploy-iBank-codar-static4.1.0_e3caefb9b29d469490bf24ba22e2650d",
+      "version" : "1"
+    },
+    "properties" : [ {
+      "propertyKey" : "response",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "nodeIpAddress",
+
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_modifiable_properties",
+      "propertyValue" : {
+        "value" : "artifact_http_url, iBank-java_host",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "artifact_http_url",
+      "propertyValue" : {
+        "value" : "http://10.10.3.58:8080/nexus/service/local/repositories/DevOps-BUILD/content/hp/iBank/dotnet/iBank.zip",
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "nodeName",
+      "propertyValue" : {
+        "value" : null,
+        "type" : "string"
+      }
+    }, {
+      "propertyKey" : "_enable_modify_during_lifecycle_properties",
+      "propertyValue" : {
+        "value" : "artifact_http_url, iBank-java_host",
+
+        "type" : "string"
+
+      }
+    }, {
+      "propertyKey" : "iBank-java_host",
+      "propertyValue" : {
+
+        "value" : "10.10.3.94",
+        "type" : "string"
+      }
+
+    } ],
+    "outgoingRelations" : [ {
+      "relationType" : "association",
+      "id" : "rel0002",
+      "properties" : [ {
+        "propertyKey" : "_modifiable_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+        }
+
+      }, {
+        "propertyKey" : "_relation_type",
+        "propertyValue" : {
+          "value" : {
+            "first" : "Association",
+
+            "second" : "ASSOCIATION"
+          },
+          "type" : "pair"
+        }
+      }, {
+        "propertyKey" : "_enable_modify_during_lifecycle_properties",
+        "propertyValue" : {
+          "value" : "",
+          "type" : "string"
+        }
+      } ],
+      "relationDescriptorName" : "{urn:x-hp:2013:software:ccue:designer:topology-metamodel:chef}hostedOn_Deploy-iBank-codar-static4^1^0_e3caefb9b29d469490bf24ba22e2650d__VERSION__1__GROUPID__com^hp^csa^type^CHEF",
+      "resourceReference" : {
+        "name" : "Windows"
+      }
+    } ],
+    "annotations" : {
+      "description" : "",
+      "displayName" : "Deploy-iBank-codar-static (4.1.0) 1",
+
+      "y" : "0",
+      "x" : "-200"
+    },
+
+    "capabilityChars" : [ ],
+    "requirements" : [ ]
+  } ],
+  "revision" : 2,
+  "properties" : [ {
+    "propertyKey" : "metamodelId",
+    "propertyValue" : {
+      "value" : "test",
+      "type" : "string"
+    }
+  }, {
+    "propertyKey" : "is_express",
+    "propertyValue" : {
+      "value" : "false",
+      "type" : "boolean"
+    }
+  } ],
+  "iconUrl" : "/csa/images/library/ccuePlatform-windows.png",
+  "tagIds" : [ {
+    "@self" : "/csa/api/tag/8a818cf8ara15bc772b0145cb6efjhg99"
+  } ],
+  "state" : "UNLOCKED",
+  "hidden" : false,
+  "partial" : false,
+  "profiles" : [ ],
+  "annotations" : {
+    "providerType" : "independent",
+    "serviceBlueprintId" : "8a8a82424a53787e014ae89d324f69d8"
+  }
+}

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CurrentMarket>
+  <Stock>
+    <Symbol>MSFT</Symbol>
+    <Name>Microsoft Corporation</Name>
+    <Price>1582.42</Price>
+    <PrevClose>42.05</PrevClose>
+    <AvailableQuantity>1400</AvailableQuantity>
+  </Stock>
+  <Stock>
+    <Symbol>IBM</Symbol>
+    <Name>International Business Machines Corporation</Name>
+    <Price>1716.98</Price>
+    <PrevClose>183.23</PrevClose>
+    <AvailableQuantity>2300</AvailableQuantity>
+  </Stock>
+  <Stock>
+    <Symbol>AXP</Symbol>
+    <Name>American Express Company</Name>
+    <Price>1640.93</Price>
+    <PrevClose>89.33</PrevClose>
+    <AvailableQuantity>800</AvailableQuantity>
+  </Stock>
+  <Stock>
+    <Symbol>HPQ</Symbol>
+    <Name>Hewlett-Packard Company</Name>
+    <Price>1569.68</Price>
+    <PrevClose>34.01</PrevClose>
+    <AvailableQuantity>0</AvailableQuantity>
+  </Stock>
+</CurrentMarket>

@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="iBank_Investor.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <div class="page">
+        <div class="header" style="background-image: url(Images/banner112.jpg);">
+            <div class="loginDisplay">
+                iBank Investor
+            </div>
+            <div style="text-align: right; background-color: #ffffff; width: 25%; float: right;
+                padding: 4px;">
+                <asp:ScriptManager ID="ScriptManager1" runat="server">
+                </asp:ScriptManager>
+                <div>
+                    <asp:Timer ID="Timer1" OnTick="Timer1_Tick" runat="server" Interval="15000">
+                    </asp:Timer>
+                </div>
+                <asp:UpdatePanel ID="UpdatePanel1" UpdateMode="Conditional" runat="server">
+                    <Triggers>
+                        <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick" />
+                    </Triggers>
+                    <ContentTemplate>
+                        <div id="marketID" runat="server">
+                            <b>DOW</b>:16606 &nbsp;<img style="width: 15px; height: 15px" src="Images/up.JPG" />&nbsp;&nbsp;&nbsp;
+                            <b>NASDAQ</b>:4500 &nbsp;
+                            <img style="width: 15px; height: 15px" src="Images/up.JPG" />
+                        </div>
+                    </ContentTemplate>
+                </asp:UpdatePanel>
+                
+            </div>
+            <div class="clear hideSkiplink">
+                <div style="width: 70%; float: left">
+                    <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false"
+                        IncludeStyleBlock="false" Orientation="Horizontal">
+                        <Items>
+                            <asp:MenuItem NavigateUrl="~/Home.aspx" Text="Home" />
+                            <asp:MenuItem NavigateUrl="~/Portfolio.aspx" Text="Portfolio" />
+                            <asp:MenuItem NavigateUrl="~/Trading.aspx" Text="Trading" />
+                            <asp:MenuItem NavigateUrl="~/Accounts.aspx" Text="Accounts" />
+                            <asp:MenuItem NavigateUrl="~/Logout.aspx" Text="Logout" />
+                        </Items>
+                    </asp:Menu>
+                </div>
+                <div style="width: 30%; float: right;">
+                   <b>Welcome <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label></b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label1" runat="server" Text="Label" Font-Bold="true"></asp:Label>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+    </div>
+    </form>
+    <script type="text/javascript">
+
+        function show() {
+            var Digital = new Date()
+            var hours = Digital.getHours()
+            var minutes = Digital.getMinutes()
+            var seconds = Digital.getSeconds()
+            var day = Digital.getDay();
+            var date = Digital.getDate();
+            var mon = Digital.getMonth();
+            var year = Digital.getFullYear();
+
+            var dn = "AM"
+            if (hours > 12) {
+                dn = "PM"
+                hours = hours - 12
+            }
+            if (hours == 0)
+                hours = 12
+            if (minutes <= 9)
+                minutes = "0" + minutes
+            if (seconds <= 9)
+                seconds = "0" + seconds
+
+            var txtDay = "Sunday";
+            if (day == 1)
+                txtDay = "Monday"
+            if (day == 2)
+                txtDay = "Tuesday"
+            if (day == 3)
+                txtDay = "Wednesday"
+            if (day == 4)
+                txtDay = "Thursday"
+            if (day == 5)
+                txtDay = "Friday"
+            if (day == 6)
+                txtDay = "Saturday"
+            if (day == 7)
+                txtDay = "Sunday"
+
+            document.getElementById("Label1").innerHTML = txtDay + ", " + (mon + 1) + "-" + date + "-" + year + "   " + hours + ":" + minutes + ":" + seconds + " " + dn
+            setTimeout("show()", 1000)
+        }
+        show()
+
+    </script>
+</body>
+</html>
