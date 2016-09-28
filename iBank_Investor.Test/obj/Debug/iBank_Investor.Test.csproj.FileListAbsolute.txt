@@ -1,0 +1,1 @@
+C:\Git\repo\iBank\iBank_Investor.Test\obj\Debug\iBank_Investor.Test.csprojResolveAssemblyReference.cache

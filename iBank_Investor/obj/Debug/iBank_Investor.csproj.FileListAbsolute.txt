@@ -1,0 +1,6 @@
+C:\Git\repo\iBank\iBank_Investor\bin\iBank_Investor.dll.config
+C:\Git\repo\iBank\iBank_Investor\bin\iBank_Investor.dll
+C:\Git\repo\iBank\iBank_Investor\bin\iBank_Investor.pdb
+C:\Git\repo\iBank\iBank_Investor\obj\Debug\iBank_Investor.csprojResolveAssemblyReference.cache
+C:\Git\repo\iBank\iBank_Investor\obj\Debug\iBank_Investor.dll
+C:\Git\repo\iBank\iBank_Investor\obj\Debug\iBank_Investor.pdb
