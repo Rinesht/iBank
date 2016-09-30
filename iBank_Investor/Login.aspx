@@ -78,7 +78,7 @@
       <tr>
     <td class="style11">
         <asp:Login ID="Login1" runat="server" Height="170px" 
-        onauthenticate="Login1_Authenticate" TitleText="Customer Login Page ALI2" Width="379px" 
+        onauthenticate="Login1_Authenticate" TitleText="Customer Login Page ALI1" Width="379px" 
             BackColor="#B3CBFF" UserNameLabelText="User ID :">
         <LabelStyle Font-Bold="True" Font-Names="Calibri" />
         <LoginButtonStyle Font-Bold="True" />
